@@ -17,7 +17,7 @@ The antimony coin is a decentralized peer-to-peer banking financial platform, cr
 | Block Size | `4MB` |
 | Block Time | `120s` |
 | PoW Reward | `60 ATMN` |*
-| Masternode Requirement | `5,000 ATMN` |
+| Masternode Requirement | `100.000 ATMN` |
 | Port | `25676` |
 | RPC Port | `25674` |
 | Masternode Port | `25676` |
