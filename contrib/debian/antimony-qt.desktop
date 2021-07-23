@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=antimony
+Comment=antimony P2P Cryptocurrency
+Comment[fr]=antimony, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=antimony, eşten eşe kriptografik sanal para birimi
+Exec=antimony-qt %u
+Terminal=false
+Type=Application
+Icon=antimony128
+MimeType=x-scheme-handler/antimony;
+Categories=Office;Finance;

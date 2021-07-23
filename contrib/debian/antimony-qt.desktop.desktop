@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=antimony
+Comment=antimony P2P Cryptocurrency
+Exec=antimony-qt %u
+Terminal=false
+Type=Application
+Icon=antimony128
+MimeType=x-scheme-handler/antimony;
+Categories=Office;Finance;
+Name[en_US]=antimony-qt.desktop

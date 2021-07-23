@@ -1,0 +1,11 @@
+[Protocol]
+exec=antimony-qt '%u'
+protocol=antimony
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

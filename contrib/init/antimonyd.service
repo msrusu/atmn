@@ -1,0 +1,26 @@
+[Unit]
+Description=antimony's distributed currency daemon
+After=network.target
+
+[Service]
+User=antimony
+Group=antimony
+
+Type=forking
+PIDFile=/var/lib/antimonyd/antimonyd.pid
+
+ExecStart=/usr/bin/antimonyd -daemon -pid=/var/lib/antimonyd/antimonyd.pid \
+          -conf=/etc/antimony/antimony.conf -datadir=/var/lib/antimonyd
+
+ExecStop=-/usr/bin/antimony-cli -conf=/etc/antimony/antimony.conf \
+         -datadir=/var/lib/antimonyd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
