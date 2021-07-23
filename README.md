@@ -9,6 +9,12 @@ Features
 
 
 The antimony coin is a decentralized peer-to-peer banking financial platform, created under an open source license, featuring a built-in cryptocurrency, end-to-end encrypted messaging and decentralized marketplace. The decentralized network aims to provide anonymity and privacy for everyone through a simple user-friendly interface by taking care of all the advanced cryptography in the background.
+Links:
+Main Project Website: https://www.antimonycoin.com/
+Windows Wallet:https://antimonycoin.com/wp-content/uploads/atmnwindows.zip
+Web Wallet: https://wallet.antimonycoin.com/
+Explorer: http://wallet.antimonycoin.com:3001/
+Telegram Channel: https://t.me/atmncommunity
 
 ## Coin Specifications
 
